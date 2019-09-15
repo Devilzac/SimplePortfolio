@@ -587,6 +587,6 @@
         $('#email').attr('action',
                        'mailto:shane199274@gmail.com?subject=' +
                        $('#subject').val() + '&body=' + $('#message').val());
-        $('#fr1').submit();
+        $('#email').submit();
     });
 })(jQuery);
